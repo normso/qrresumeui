@@ -5,6 +5,11 @@
    justify-content: space-between;
 }
 
+.ediimc{
+    width:100px;
+    height:80px;
+}
+
 .edilc{
     display: flex;
     gap:20px;

@@ -1,11 +1,11 @@
 import "./EditorNav.css"
-
+import logo from "./logo.png"
 
 export default function Create(){
     return(
         <div className="edinc">
             <div class="ediimc">
-                <a>Logo</a>
+                <img style={{width:"100%",height:"100%"}} src={logo}/>
             </div>
             <div class="edilc">
                 <div class="edillc">

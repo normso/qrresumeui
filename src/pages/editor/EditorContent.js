@@ -39,17 +39,15 @@ function EdicontContent(p){
 }
 
 export default function Create(){
-    const [layout,setLayout] = useMemo({})
-    const[struc,setStruc] = useState({})
-    useEffect(()=>{
-        fetch('http://localhost:8080/template/elegant')
-            .then(response => response.json())
-            .then((data) => {
-                console.log(data)
-            
-                
-            })
-    },[])
+    //const [layout,setLayout] = useMemo({})
+    //const[struc,setStruc] = useState({})
+    //useEffect(()=>{
+    //    fetch('http://localhost:8080/template/elegant')
+    //        .then(response => response.json())
+    //        .then((data) => {
+    //            console.log(data)               
+    //        })
+    //},[])
     const [tab,setTab] = useState("")
     console.log(tab)
     return(
