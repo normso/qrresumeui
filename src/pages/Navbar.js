@@ -14,7 +14,7 @@ export default function Home(){
                     <a class="link">Support Us</a>
                 </div>
                 <div class="nvlbc">
-                    <div class="nvlbb">Go To Home</div>
+                    <div class="nvlbb">Go To dashboard</div>
                 </div>
             </div>        
         </div>

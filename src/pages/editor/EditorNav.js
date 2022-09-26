@@ -14,7 +14,7 @@ export default function Create(){
                     <a class="edilink">Support Us</a>
                 </div>
                 <div class="edilbc">
-                    <div class="edilbb">Go To Home</div>
+                    <div class="edilbb">Download</div>
                 </div>
             </div>  
         </div>
