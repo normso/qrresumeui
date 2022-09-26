@@ -1,0 +1,35 @@
+.ic{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+    
+}
+.itc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.it{
+    
+    font-size: 2.7rem;
+    word-spacing: 10px;
+    font-weight: 400;
+}
+
+
+.ibc{
+    margin-top: 4vh;
+    padding:20px;
+    
+    background-color: aliceblue;
+    border-radius: 200px;
+    display: flex;
+    gap:20px;
+}
+.ibt{
+    font-size: 1.3rem;
+    font-weight: 450;
+}

@@ -1,0 +1,59 @@
+.dashcontainer{
+    width: 15%;
+    height:100%;
+    background-color: aliceblue;
+    border:2px solid #E6EAED;
+}
+
+.dashlogo{
+    width:100%;
+    height:30%;
+   
+}
+
+.dashes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    
+}
+
+.dhc{
+    margin-left: 20%;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.dhcactive{
+    border-radius: 200px;
+    color:aliceblue;
+    background-color: black;
+    padding:5px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.dhc:hover{
+    border-radius: 200px;
+    color:aliceblue;
+    background-color: black;
+    padding:5px;
+    padding-left: 10px;
+    font-weight: 600;
+
+
+}
+
+.dhic{
+    width:30px;
+    height:30px;
+}
+
+.dht{
+    color:#bbbfbe;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

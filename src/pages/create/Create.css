@@ -1,0 +1,100 @@
+.createcontainer{
+    height:100vh;
+    background-color: #EDF0F3;
+    padding-top: 10%;
+}
+
+.ccm{
+    background-color: aliceblue;
+    margin:auto;
+    width:50%;
+    padding:40px ;
+    border:2px solid #cacacc;
+}
+
+
+.cff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    margin: auto;
+    width:40%;
+}
+
+.cfmc{
+    transform: translateX(-20px);
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.clt{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.cfe{
+    
+    all:unset;
+    background-color: aliceblue;
+    width:100%;
+    height:35px;
+    border:2px solid black;
+    padding-left: 30px;
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.cfbb{
+    width:150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border:2px solid black;
+    font-size: 1.5rem;
+    font-weight: 450;
+    color:aliceblue;
+}
+
+.cfbb:hover{
+    cursor: pointer;
+}
+
+
+
+.cctc{
+    display: flex;
+    gap:10px;
+}
+
+.tc{
+    border:2px solid black;
+}
+
+.tic{
+    width:200px;
+    height:200px;
+
+}
+
+
+.tnc{
+    width:200px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tnt{
+
+    color:aliceblue;
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,107 @@
+.lc{
+    margin-top:10vh;
+    width:100%;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    border:2px solid black ;
+    border-radius:20px ;
+}
+
+.lbc{
+    margin-top:3% ;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.lbb{
+    width:150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border:2px solid black;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.lbb:hover{
+    cursor: pointer;
+    background-color: #d2d3d5;
+}
+
+.lfc{
+    width:80%;
+    height:70%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lfcc{
+    background-color: #EDF0F3;
+    width:70%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.lft{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.lff{
+    margin-top: 40px;
+    width:100%;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.lfe{
+    
+    all:unset;
+    background-color: aliceblue;
+    width:45%;
+    height:50px;
+    border:2px solid black;
+    padding-left: 30px;
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+
+.lfe::placeholder{
+    font-size:1.8rem;
+    font-weight: 450;
+}
+
+.lfbc{
+    margin-top:3% ;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.lfbb{
+    width:150px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border:2px solid black;
+    font-size: 1.2rem;
+    font-weight: 450;
+    color:aliceblue;
+}
+
+.lfbb:hover{
+    cursor: pointer;
+}

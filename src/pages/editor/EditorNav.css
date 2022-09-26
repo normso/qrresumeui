@@ -1,0 +1,36 @@
+.edinc{
+   width:80vw;
+   margin: auto;
+   display: flex; 
+   justify-content: space-between;
+}
+
+.edilc{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    
+}
+
+.edillc{
+    display: flex;
+    gap:20px;
+}
+
+.edilink{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.edilbb{
+    background-color: aliceblue;
+    padding:10px;
+    border:2px solid black;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.edilbb:hover{
+    
+    cursor: pointer;
+}
