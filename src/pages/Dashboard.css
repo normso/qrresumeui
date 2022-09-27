@@ -2,4 +2,6 @@
 .Dashboardcontainer{
     height:100vh;
     background-color: #EDF0F3;
+    display: flex;
+    gap:20px;
 }

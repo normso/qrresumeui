@@ -100,8 +100,18 @@
     font-size: 1.2rem;
     font-weight: 450;
     color:aliceblue;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.lfbb:active{
+    
+    color:black;
+    border-color: aliceblue;
 }
 
 .lfbb:hover{
+    color:black;
     cursor: pointer;
+    background-color: rgb(177, 179, 180);
 }
+

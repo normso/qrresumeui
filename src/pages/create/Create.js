@@ -1,6 +1,6 @@
 import "./Create.css"
 import { useNavigate } from "react-router-dom";
-
+import {useState} from "react";
 
 function Template(){
     return(
@@ -19,15 +19,19 @@ function Template(){
 
 function CreateCenter(){
     const navigate = useNavigate();
+
+
     function submitForm(){
+
         navigate("/editor")
+        
     }
     return(
         <div className="ccm">
             <form class="cff">
                 <div className="cfmc">
                 <label className="clt">File Name</label>
-                <input  type="text" className="cfe"/>
+                <input   type="text" className="cfe"/>
                 </div>
                 <div className="cctc">
                     <Template/>

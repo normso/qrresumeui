@@ -31,8 +31,12 @@ function Cacc(){
         }
     }
 
+    function onClickButton (event) {
+        event.preventDefault();
+      }
 
-    function submitForm(){
+    function submitForm(e){
+        //e.target.preventDefault()
         fetch('http://localhost:8080/createacc',{
             method: 'POST',
             headers: {
@@ -49,7 +53,7 @@ function Cacc(){
     }
 
     return(
-        <form class="lff">
+        <form onSubmit={submitForm} class="lff">
                 <input onChange={handleName} type="text" class="lfe" placeholder="Your Name"/>
                 <input onChange={handleEmail} 
                     style={{borderColor:emailborder}}
@@ -58,6 +62,7 @@ function Cacc(){
                 <input onChange={handleConfirmPass} 
                     style={{borderColor:cpassborder}}
                     type="text" class="lfe" placeholder="Confirm Password"/> 
+                {/*<input  class="lfbb" type="submit" placeholder="Submit" value="Submit" />*/}
                 <div class="lfbc">
                     <div onClick={submitForm} class="lfbb">Submit</div>
                 </div>
@@ -65,11 +70,12 @@ function Cacc(){
     );
 }
 
-function Logi(){
+function Logi(p){
     const navigate = useNavigate();
     const [emailid,setEmailid] = useState("")
     const [password,setPassword] = useState("")
     const [border,setBorder] = useState("black")
+
 
     function handleEmail(e){
         setEmailid(e.target.value)
@@ -114,8 +120,9 @@ function Logi(){
     );
 }
 
-export default function Home(){
-    let [acc,changeAcc]=useState(true)
+export default function Home(p){
+    const [acc,changeAcc]=useState(true)
+    
     function logichange(){
         changeAcc(false)       
     }
@@ -133,7 +140,7 @@ export default function Home(){
             <div class="lfcc">
                 <span class="lft">{acc === true ? "Create Account":"Get Dive Into"}</span>
             </div>
-            {acc === true ? <Cacc/>:<Logi/>}
+            {acc === true ? <Cacc/>:<Logi notification={p.setNoti}/>}
             </div>
         </div>
         

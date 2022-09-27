@@ -2,4 +2,12 @@
     height:100vh;
     background-color: #EDF0F3;
     padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.message{
+    font-size: 1.5rem;
 }

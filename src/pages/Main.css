@@ -1,0 +1,22 @@
+.mcontainer{
+    width:90%;
+    height: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    
+}
+
+.contentdcontainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    padding-top:200px ;
+
+}
+
+.but{
+    font-size: 1.2rem;
+}
